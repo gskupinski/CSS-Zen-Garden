@@ -24,6 +24,7 @@ footer {
   font-family:"Omnium Wide";
   height: fit-content;
   background: ghostwhite; 
+  border: thick double aliceblue;
 }
 h1 {
   margin: 0 auto;
@@ -43,10 +44,10 @@ h1 {
 h2,h3 {
   font-family: "Bebas Neue", serif;
   text-align: center;
-  background: lightcyan;
+  background: ghostwhite;
   padding: 16px;
   margin-bottom: 24;
-
+  border: thick double aliceblue;  
 }
 
 .summary {
@@ -67,6 +68,7 @@ h2,h3 {
   width: 95%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
@@ -78,6 +80,7 @@ h2,h3 {
   width: 95%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
@@ -89,6 +92,7 @@ h2,h3 {
   width: 95%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
@@ -100,6 +104,7 @@ h2,h3 {
   width: 95%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
@@ -111,13 +116,14 @@ h2,h3 {
   width: 95%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
 }
 .sidebar {
-   font-family: "Omnium Wide";
+
   background: aliceblue;
   margin: 24px;
   height: fit-content;
@@ -136,7 +142,7 @@ h2,h3 {
 }
 .page-wrapper {
   position: relative;
-  height: 100%;
+  
   background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
   background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0
       200px,
