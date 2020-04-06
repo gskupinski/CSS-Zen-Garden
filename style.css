@@ -8,52 +8,69 @@ body {
   margin: 0;
   padding: 0;
 }
+* {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 footer {
   margin-top: 24px;
   margin-bottom: 24px;
-  padding: 0;
+  padding: 16px;
+  text-align: center;
   font-family:"Omnium Wide";
   height: fit-content;
-  background: #ddb887; 
+  background: ghostwhite; 
 }
-header {
+h1 {
+  margin: 0 auto;
+  width:500px;
+  padding: 24px;
+  border: thick double azure;
   font-family: "Omnium Wide";
   background: aliceblue;
-  margin: 24x;
   height: fit-content;
   text-align: center;
   transform: rotate(90deg);
   position: absolute;
-  right: 10px;
-  top: 50px;
+  right: -150px;
+  top: 120px;
+
 }
-h1, h2, h3 {
+h2,h3 {
   font-family: "Bebas Neue", serif;
   text-align: center;
   background: lightcyan;
   padding: 16px;
   margin-bottom: 24;
+
 }
+
 .summary {
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
   max-width: 800px;
-  margin: 50px;
+  margin: 0 auto;
+  margin-bottom: 16px;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
-  padding: 16px
-   
+  padding: 16px;
+  border: thick double aliceblue;   
 }
 .preamble {
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
   max-width: 800px;
-  margin: 50px;
+  margin: 0 auto;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
+  padding: 16px;
+  border: thick double aliceblue;
 }
 .explanation{
   text-align: center;
@@ -63,6 +80,59 @@ h1, h2, h3 {
   margin: 0 auto;
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
+  padding: 16px;
+  border: thick double aliceblue;
+}
+.participation {
+  text-align: center;
+  text-decoration-color: transparent;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .4);
+  min-height: 150px;
+  padding: 16px;
+  border: thick double aliceblue;
+}
+.benefits {
+  text-align: center;
+  text-decoration-color: transparent;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .4);
+  min-height: 150px;
+  padding: 16px;
+  border: thick double aliceblue;
+}
+.requirements{
+  text-align: center;
+  text-decoration-color: transparent;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .4);
+  min-height: 150px;
+  padding: 16px;
+  border: thick double aliceblue;
+}
+.sidebar {
+   font-family: "Omnium Wide";
+  background: aliceblue;
+  margin: 24px;
+  height: fit-content;
+  text-align: center;
+  text-decoration-color: transparent;
+  width: 95%;
+  max-width: 200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, .4);
+  min-height: 150px;
+  padding: 16px;
+  position: absolute;
+  right: 0px;
+  top: 350px;
+  border: thick double aliceblue;
 }
 .page-wrapper {
   position: relative;
@@ -81,6 +151,7 @@ h1, h2, h3 {
   }
   100% {
     background-position: 1000px 200px, 1200px 300px, 1100px 250px;
+ 
   }
 
 }
