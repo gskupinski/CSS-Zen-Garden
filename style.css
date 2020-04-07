@@ -56,7 +56,12 @@ h2,h3 {
   padding: 16px;
   border: thick double aliceblue;
   border-radius: 30px;
+  
 }
+a:hover{
+  color:lightsalmon;  
+}
+
 .preamble {
   font-family: 'Abel', sans-serif;
   text-align: center;
