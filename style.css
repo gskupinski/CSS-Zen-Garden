@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Megrim&family=Montserrat+Alternates:wght@600&family=Syncopate:wght@700&display=swap');
 html,head,body {
   width: 100%;
   height: 100%;
@@ -8,31 +8,23 @@ html,head,body {
   padding: 0;
 
 }
-* {
-  box-sizing: inherit;
-}
-
-* {
-  box-sizing: border-box;
-}
 footer {
+  font-family: 'Megrim', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 16px;
   text-align: center;
-  font-family:"Omnium Wide";
   height: fit-content;
-  background: ghostwhite; 
-  border: thick double aliceblue;
+  background: aliceblue; 
+  border: thick double azure;
 }
 h1 {
   margin: 0 auto;
   width:500px;
   padding: 24px;
   border: thick double azure;
-  font-family: "Omnium Wide";
+  font-family: 'Montserrat Alternates', sans-serif;
   background: aliceblue;
- 
   height: fit-content;
   text-align: center;
   transform: rotate(90deg);
@@ -42,15 +34,17 @@ h1 {
 
 }
 h2,h3 {
-  font-family: "Bebas Neue", serif;
+  font-family: 'Megrim', cursive;
   text-align: center;
-  background: ghostwhite;
+  background: mintcream;
   padding: 16px;
   margin-bottom: 24;
-  border: thick double aliceblue;  
+  border: thick double aliceblue;
+  border-radius: 30px;
 }
 
 .summary {
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -60,9 +54,11 @@ h2,h3 {
   background: rgba(255, 255, 255, .4);
   min-height: 150px;
   padding: 16px;
-  border: thick double aliceblue;   
+  border: thick double aliceblue;
+  border-radius: 30px;
 }
 .preamble {
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -73,8 +69,10 @@ h2,h3 {
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
+  border-radius: 10% / 50%;
 }
 .explanation{
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -85,8 +83,10 @@ h2,h3 {
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
+  border-radius: 10% / 50%;
 }
 .participation {
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -97,8 +97,10 @@ h2,h3 {
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
+  border-radius: 10% / 50%;
 }
 .benefits {
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -109,8 +111,10 @@ h2,h3 {
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
+  border-radius: 10% / 50%;
 }
 .requirements{
+  font-family: 'Abel', sans-serif;
   text-align: center;
   text-decoration-color: transparent;
   width: 95%;
@@ -121,9 +125,10 @@ h2,h3 {
   min-height: 150px;
   padding: 16px;
   border: thick double aliceblue;
+  border-radius: 10% / 80%;
 }
 .sidebar {
-  font-family: 'Gotu', sans-serif;
+  font-family: 'Abel', sans-serif;
   background: aliceblue;
   margin: 24px;
   height: fit-content;
@@ -139,6 +144,7 @@ h2,h3 {
   right: 0px;
   top: 350px;
   border: thick double aliceblue;
+  border-radius: 30px;
 }
 .page-wrapper {
   position: relative;
