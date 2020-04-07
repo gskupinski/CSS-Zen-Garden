@@ -20,7 +20,7 @@ footer {
 }
 h1 {
   margin: 0 auto;
-  width:500px;
+  width:375px;
   padding: 24px;
   border: thick double azure;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -147,7 +147,7 @@ a:hover{
   padding: 16px;
   position: absolute;
   right: 0px;
-  top: 350px;
+  top: 375px;
   border: thick double aliceblue;
   border-radius: 30px;
 }
@@ -170,5 +170,14 @@ a:hover{
     background-position: 1000px 200px, 1200px 300px, 1100px 250px;
  
   }
+}
 
+@media screen and (max-width: 1320px){
+  h1{
+    transform: rotate(0deg);
+    position: static;
+  }
+  .sidebar {
+    position: static;
+  }
 }
