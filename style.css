@@ -1,12 +1,12 @@
-html,
-head,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+html,head,body {
   width: 100%;
   height: 100%;
   min-width: 500px;
   min-height: 500px;
   margin: 0;
   padding: 0;
+
 }
 * {
   box-sizing: inherit;
@@ -15,7 +15,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
 footer {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -33,6 +32,7 @@ h1 {
   border: thick double azure;
   font-family: "Omnium Wide";
   background: aliceblue;
+ 
   height: fit-content;
   text-align: center;
   transform: rotate(90deg);
@@ -123,7 +123,7 @@ h2,h3 {
   border: thick double aliceblue;
 }
 .sidebar {
-
+  font-family: 'Gotu', sans-serif;
   background: aliceblue;
   margin: 24px;
   height: fit-content;
